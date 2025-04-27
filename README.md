@@ -47,13 +47,13 @@
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img width=auto src="https://github-readme-streak-stats.herokuapp.com/?user=tarunkumar-sys&border_radius=10" alt="streak stats" />
-  <img width=auto src="https://github-readme-stats.vercel.app/api?username=tarunkumar-sys&show_icons=true&locale=en&border_radius=10" alt="readme stats" />
+  <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=tarunkumar-sys&border_radius=10" alt="streak stats" />
+  <img width=390 src="https://github-readme-stats.vercel.app/api?username=tarunkumar-sys&show_icons=true&locale=en&border_radius=10" alt="readme stats" />
 </div>
 
 <br>
 <p align="center">
-  <img width=auto src="https://github-readme-stats.vercel.app/api/top-langs?username=tarunkumar-sys&show_icons=true&locale=en&layout=compact&border_radius=10" alt="tarunkumar-sys" />
+  <img width=345 src="https://github-readme-stats.vercel.app/api/top-langs?username=tarunkumar-sys&show_icons=true&locale=en&layout=compact&border_radius=10" alt="tarunkumar-sys" />
 </p>
 
 <br/><br/>
