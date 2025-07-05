@@ -1,25 +1,6 @@
-<p align="right"> <img src="https://komarev.com/ghpvc/?username=tarunkumar-sys&label=Profile%20views&color=0e75b6&style=flat" alt="tarunkumar-sys" /> </p>
-
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+%F0%9F%91%8B;+I'm+Tarun+Kumar!;&color=FFFFFF" />
-</h1>
-
-<h3 align="center">A passionate web developer from India</h3>
-
-<br/>
-
-<div align="center">
- 
- 🔗 I’m currently working on <b>AI Platform</b>
- 
- 🌱 I’m currently learning <b>Docker, AI Models, AWS</b>
-
-💬 Ask me about <b>Node.js, React, Firebase... or anything <a href="https://github.com/tarunkumar-sys/tarunkumar-sys/issues">here</a></b>
-
-✨ Fun fact <b>Creators behind Avatar- The Last Airbender were influenced by anime!</b>
-
-</div>
-
+<!--Banner-->
+![Tarun Banner Image](./profile_banner.png)
+<!--Contact Section--> 
 <div align="center"> 
   <a href="tarunkumarsingh295@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
@@ -32,32 +13,118 @@
 </a>
 </div>
 
-<hr/>
+<!--Night Owl image
+<div>
+  <img align="right" width="40%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
+</div>-->
 
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
-<br/>
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,github,figma,tailwind,git,docker,linux,ollama" />
-    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,firebase,django,nextjs,mysql" /><br>
-</div>
+<!--Header Name-->
+# <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> ɪ'ᴍ Tarun!
+*Second-year student pursuing Bachelrs in IoT at Dayalbagh Educational Institute🎓. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love discovering new technologies and experimenting with tools that solve real-world problems💡. I'm Currently focused on web development, and gradually exploring the world of DevOps and Cloud Computing ☁️*
 
-<br/>
-<hr/>
+- 🔗 Currently working on an **AI platform** focused on **PDF analysis and content generation**.
+- 🌱 I’m constantly learning — I believe every day is a chance to improve and explore new technologies.
+- 💬 Ask me about **Node.js, React, Firebase...** or anything [here](https://github.com/tarunkumar-sys/tarunkumar-sys/issues).
+- 🧠 Passionate about building scalable, maintainable systems with clean code practices.
+- 🎧 When not coding, I’m into tech podcasts, AI news, and the latest in developer tools.
+- 💻 Visit my [**Portfolio**](https://my-portfolio-zeta-ruddy-57.vercel.app/) for more about me.
 
-<h2 align="center">⚡ Stats ⚡</h2>
-<br>
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=tarunkumar-sys&border_radius=10" alt="streak stats" />
-  <img width=390 src="https://github-readme-stats.vercel.app/api?username=tarunkumar-sys&show_icons=true&locale=en&border_radius=10" alt="readme stats" />
-</div>
-
-<br>
-<p align="center">
-  <img width=345 src="https://github-readme-stats.vercel.app/api/top-langs?username=tarunkumar-sys&show_icons=true&locale=en&layout=compact&border_radius=10" alt="tarunkumar-sys" />
+<!--Profile Count Badge-->
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=tarunkumar-sys&label=Profile%20views&color=770677&style=for-the-badge&logo=star" alt="tarunkumar-sys" style="padding-right:20px;" />
 </p>
 
-<br/><br/>
-
-<hr/>
+<!--Github stats Table--> 
+<h2 align="center">⚒️ Tᴇᴄʜɴᴏʟᴏɢʏ Sᴛᴀᴄᴋ ⚒️</h2>
+<br/>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,javascript,typescript,react,nextjs,nodejs,python,django,firebase" />
+    <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,figma,mongodb,mysql,ollama" /><br>
+</div>
 
 <br/>
+
+<!--Github stats Table--> 
+<h2 align="center">📊 Mʏ Gɪᴛʜᴜʙ Sᴛᴀᴛs 📊</h2>
+
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <h3 align="center"><strong>Gɪᴛʜᴜʙ Sᴛᴀᴛs</strong></h3>
+      <p align="center">
+        <a href="https://github.com/tarunkumar-sys">
+          <img align="center" src="https://github-readme-stats.vercel.app/api?username=tarunkumar-sys&count_private=true&show_icons=true&theme=nightowl&bg_color=0,000000,441350&title_color=c56a90&text_color=ffffff&rank_icon=github&hide=prs_merged_percentage,contribs&show=reviews,prs,issues" alt="GitHub Stats" />
+        </a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center"><strong>Sᴛʀᴇᴀᴋ Sᴛᴀᴛs</strong></h3>
+      <p align="center">
+        <a href="https://github.com/tarunkumar-sys">
+          <img align="center" src="https://streak-stats.demolab.com?user=tarunkumar-sys&theme=nightowl&background=0,000000,441350&fire=ffeb95&ring=ffeb95&sideNums=ffffff&sideLabels=ffffff&dates=c56a90&currStreakNum=ffffff" alt="Streak Stats" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center"><strong>Lᴀᴛᴇsᴛ Pʀᴏᴊᴇᴄᴛ</strong></h3>
+      <p align="center">
+        <a href="https://github.com/tarunkumar-sys/ScribeNova">
+          <img align="center" width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=tarunkumar-sys&repo=ScribeNova&theme=nightowl&show_owner=true&bg_color=0,000000,441350&title_color=c56a90&text_color=ffffff" alt="ScribeNova" />
+        </a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center"><strong>Tᴏᴘ Cᴏɴᴛʀɪʙᴜᴛɪᴏɴs</strong></h3>
+      <p align="center">
+        <a href="https://github.com/tarunkumar-sys">
+          <img align="center" src="https://github-contributor-stats.vercel.app/api?username=tarunkumar-sys&limit=2&theme=nightowl&show_owner=true&combine_all_yearly_contributions=false&bg_color=0,000000,441350&title_color=c56a90&text_color=ffffff" alt="Top Repo" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+<br />
+
+<!--Contribution Graph-->
+<h2 align="center">📈 Cᴏɴᴛʀɪʙᴜᴛɪᴏɴ Gʀᴀᴘʜ 📈</h2>
+<div align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=tarunkumar-sys&bg_color=220a28&&color=ffffff&line=c56a90&point=ffeb95&area=false&hide_border=false" border-radius="15">
+</div>
+<br />
+
+<!--LeetCode status-->
+<h2 align="center">⚡ LᴇᴇᴛCᴏᴅᴇ Sᴛᴀᴛs ⚡</h2>
+<p align="center">
+  <a href="https://leetcode.com/tarunkumarsingh" target="_blank">
+    <img align="center" width="50%"
+      src="https://leetcard.jacoblin.cool/tarunkumarsingh?theme=nord&bg_color=0,000000,441350&title_color=c56a90"
+      alt="LeetCode Stats" />
+  </a>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer--> 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
+</p>
