@@ -27,7 +27,7 @@
 - 💬 Ask me about **Node.js, React, Firebase...** or anything [here](https://github.com/tarunkumar-sys/tarunkumar-sys/issues).
 - 🧠 Passionate about building scalable, maintainable systems with clean code practices.
 - 🎧 When not coding, I’m into tech podcasts, AI news, and the latest in developer tools.
-- 💻 Visit my [**Portfolio**](https://my-portfolio-zeta-ruddy-57.vercel.app/) for more about me.
+- 💻 Visit my [**Portfolio**](https://www.scribenova.xyz/) for more about me.
 
 <!--Profile Count Badge-->
 <p align="left">
