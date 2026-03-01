@@ -45,7 +45,7 @@
 <br/>
 
 <!--Github stats Table--> 
-<h2 align="center">📊 Mʏ Gɪᴛʜᴜʙ Sᴛᴀᴛs 📊</h2>
+<!-- <h2 align="center">📊 Mʏ Gɪᴛʜᴜʙ Sᴛᴀᴛs 📊</h2>
 
 <table width="100%">
   <tr>
@@ -85,7 +85,7 @@
     </td>
   </tr>
 </table>
-<br />
+<br /> -->
 
 <!--Contribution Graph-->
 <h2 align="center">📈 Cᴏɴᴛʀɪʙᴜᴛɪᴏɴ Gʀᴀᴘʜ 📈</h2>
