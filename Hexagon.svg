@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440">
+  <defs>
+    <style>
+      @keyframes pulse { 0%,100%{opacity:0.85} 50%{opacity:1} }
+      @keyframes glow  { 0%,100%{filter:drop-shadow(0 0 4px #c56a90)} 50%{filter:drop-shadow(0 0 12px #c56a90) drop-shadow(0 0 20px #9b59d0)} }
+      @keyframes fadein{ from{opacity:0} to{opacity:1} }
+      .bg    { fill:#0d0015; }
+      .grid  { fill:none; stroke:#5c2d91; stroke-width:0.8; opacity:0.5; }
+      .axis  { stroke:#5c2d91; stroke-width:1; opacity:0.6; }
+      .data  { fill:rgba(197,106,144,0.18); stroke:#c56a90; stroke-width:2; animation:pulse 3s ease-in-out infinite, glow 3s ease-in-out infinite; }
+      .dot   { fill:#e8d5ff; stroke:#c56a90; stroke-width:2; animation:pulse 3s ease-in-out infinite; }
+      .lbl   { font-family:'Courier New',monospace; font-size:11.5px; fill:#e0d0ff; font-weight:700; letter-spacing:0.5px; }
+      .pct   { font-family:'Courier New',monospace; font-size:10px; fill:#c56a90; font-weight:600; }
+      .title { font-family:'Courier New',monospace; font-size:13px; fill:#9b59d0; font-weight:700; letter-spacing:2px; }
+      .bar-bg{ fill:#1a0030; rx:3; }
+      .bar   { fill:url(#barGrad); rx:3; }
+      .bar-lbl{ font-family:'Courier New',monospace; font-size:9.5px; fill:#c0a0d0; }
+      g { animation:fadein 1s ease; }
+    </style>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3a1a5e"/>
+      <stop offset="100%" stop-color="#c56a90"/>
+    </linearGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="440" height="440" class="bg" rx="12"/>
+  <rect x="1" y="1" width="438" height="438" fill="none" stroke="#5c2d91" stroke-width="1" rx="12" opacity="0.6"/>
+
+  <!-- Title -->
+  <text x="220" y="28" text-anchor="middle" class="title">// SKILL MATRIX</text>
+
+  <!-- Center -->
+  <!-- cx=220, cy=230, max_r=140 -->
+
+  <!-- Grid hexagons at 20%, 40%, 60%, 80%, 100% -->
+  <!-- r=28,56,84,112,140 -->
+
+  <!-- r=140 (100%) -->
+  <polygon class="grid" points="220,90 341.2,160 341.2,300 220,370 98.8,300 98.8,160"/>
+  <!-- r=112 (80%) -->
+  <polygon class="grid" points="220,118 316.97,173 316.97,283 220,338 123.03,283 123.03,173"/>
+  <!-- r=84 (60%) -->
+  <polygon class="grid" points="220,146 292.74,188 292.74,272 220,314 147.26,272 147.26,188"/>
+  <!-- r=56 (40%) -->
+  <polygon class="grid" points="220,174 268.5,202 268.5,258 220,286 171.5,258 171.5,202"/>
+  <!-- r=28 (20%) -->
+  <polygon class="grid" points="220,202 244.25,216 244.25,244 220,258 195.75,244 195.75,216"/>
+
+  <!-- Axes -->
+  <line class="axis" x1="220" y1="230" x2="220" y2="90"/>
+  <line class="axis" x1="220" y1="230" x2="341.2" y2="160"/>
+  <line class="axis" x1="220" y1="230" x2="341.2" y2="300"/>
+  <line class="axis" x1="220" y1="230" x2="220" y2="370"/>
+  <line class="axis" x1="220" y1="230" x2="98.8" y2="300"/>
+  <line class="axis" x1="220" y1="230" x2="98.8" y2="160"/>
+
+  <!-- Percentage ticks on top axis -->
+  <text x="225" y="105" class="pct">100</text>
+  <text x="225" y="133" class="pct">80</text>
+  <text x="225" y="161" class="pct">60</text>
+  <text x="225" y="189" class="pct">40</text>
+  <text x="225" y="217" class="pct">20</text>
+
+  <!--
+    Skills: Frontend(88%)=r123, Backend(75%)=r105, DevOps(58%)=r81,
+            IoT(72%)=r101, Database(68%)=r95, Design(65%)=r91
+
+    θ=0°(top)   : x=220+r*sin0=220,  y=230-r*cos0=230-r
+    θ=60°       : x=220+r*0.866,     y=230-r*0.5
+    θ=120°      : x=220+r*0.866,     y=230+r*0.5
+    θ=180°      : x=220,             y=230+r
+    θ=240°      : x=220-r*0.866,     y=230+r*0.5
+    θ=300°      : x=220-r*0.866,     y=230-r*0.5
+
+    Frontend(88%): r=123 → (220, 107)
+    Backend(75%):  r=105 → (220+91,230-52.5)=(311,177)
+    DevOps(58%):   r=81  → (220+70,230+40)=(290,270)
+    IoT(72%):      r=101 → (220, 230+101)=(220,331)
+    Database(68%): r=95  → (220-82,230+47)=(138,277)
+    Design(65%):   r=91  → (220-79,230-45)=(141,185)
+  -->
+
+  <!-- Data polygon -->
+  <polygon class="data" points="220,107 311,178 290,270 220,331 138,278 141,185" filter="url(#softGlow)"/>
+
+  <!-- Dots at each skill vertex -->
+  <circle class="dot" cx="220" cy="107" r="5"/>
+  <circle class="dot" cx="311" cy="178" r="5"/>
+  <circle class="dot" cx="290" cy="270" r="5"/>
+  <circle class="dot" cx="220" cy="331" r="5"/>
+  <circle class="dot" cx="138" cy="278" r="5"/>
+  <circle class="dot" cx="141" cy="185" r="5"/>
+
+  <!-- Labels -->
+  <text x="220" y="78"  text-anchor="middle" class="lbl">FRONTEND</text>
+  <text x="220" y="90"  text-anchor="middle" class="pct">88%</text>
+
+  <text x="358" y="170" text-anchor="start" class="lbl">BACKEND</text>
+  <text x="358" y="182" text-anchor="start" class="pct">75%</text>
+
+  <text x="358" y="294" text-anchor="start" class="lbl">DEVOPS</text>
+  <text x="358" y="306" text-anchor="start" class="pct">58%</text>
+
+  <text x="220" y="393" text-anchor="middle" class="lbl">IOT</text>
+  <text x="220" y="405" text-anchor="middle" class="pct">72%</text>
+
+  <text x="82"  y="294" text-anchor="end" class="lbl">DATABASE</text>
+  <text x="82"  y="306" text-anchor="end" class="pct">68%</text>
+
+  <text x="82"  y="170" text-anchor="end" class="lbl">DESIGN</text>
+  <text x="82"  y="182" text-anchor="end" class="pct">65%</text>
+
+  <!-- Mini progress bars at bottom -->
+  <text x="20" y="428" class="bar-lbl">FRONTEND ████████████████████ 88%</text>
+</svg>
