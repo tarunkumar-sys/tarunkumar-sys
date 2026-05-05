@@ -13,11 +13,6 @@
 </a>
 </div>
 
-<!-- Night Owl image -->
-<!-- <div>
-  <img align="right" width="40%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
-</div> -->
-
 <!--Header Name-->
 # <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> ɪ'ᴍ Tarun!
 *A passionate developer focused on building impactful and scalable solutions. I enjoy working across technologies and domains, constantly exploring tools that solve real-world problems 💡. Currently diving deep into web development, while expanding into DevOps and Cloud Computing ☁️.*
@@ -89,7 +84,7 @@
   <tr>
     <td width="50%" align="center" style="padding:0; margin:0;">
       <img 
-        src="https://github-readme-stats.vercel.app/api?username=tarunkumar-sys&count_private=true&show_icons=true&theme=nightowl&bg_color=0,000000,441350&title_color=c56a90&text_color=ffffff&hide_border=true"
+        src="https://readmestats.999857.xyz/api?username=tarunkumar-sys&count_private=true&show_icons=true&theme=nightowl&bg_color=0,000000,441350&title_color=c56a90&text_color=ffffff&hide_border=true"
         width="100%"
         style="display:block;"
       />
@@ -121,33 +116,14 @@
 
 </table>
 
+<!-- <h2 align="center">🏆 GitHub Trophies 🏆</h2>
 
-<!--Contribution Graph-->
-<!-- <h2 align="center">📈 Cᴏɴᴛʀɪʙᴜᴛɪᴏɴ Gʀᴀᴘʜ 📈</h2>
-<div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=tarunkumar-sys&bg_color=220a28&&color=ffffff&line=c56a90&point=ffeb95&area=false&hide_border=false" border-radius="15">
-</div> -->
-<!-- <br /> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p align="center">
+  <img 
+    src="https://github-profile-trophy.vercel.app/?username=tarunkumar-sys&theme=midnight_purple&no-frame=true&no-bg=true&row=1&column=7"
+    width="100%"
+  />
+</p> -->
 
 <!--Footer--> 
 <p align="center">
